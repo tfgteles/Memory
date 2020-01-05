@@ -1,0 +1,68 @@
+/**
+ * This document contains the style (CSS) of Memory Puzzle
+ *
+ * Tiago Franco de Goes Teles
+ * December 25th, 2019
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 2px;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 2px;
+}
+
+#help_content {
+    max-width: 600px;
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+#table div {
+    display: inline;
+    margin: 3px;
+    clear: both;
+}
+
+#table div img {
+    width: 150px;
+    height: 100px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 3px;
+    background-color: lightyellow;
+}
+
+#table div img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+input, label {
+    padding: 2px;
+    margin: 5px;
+}
+
+input[type=number], input[type=button] {
+    width: 50px;
+    text-align: center;
+}
+
+input[type=button] {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+span {
+    color: red;
+}
+

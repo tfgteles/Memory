@@ -1,0 +1,77 @@
+<!--
+    Memory puzzle html page to be manipulated by JavaScript. In this game the
+    users can choose from 2 to 15 pairs of cards.
+
+    Tiago Franco de Goes Teles 
+    December 25th, 2019
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Memory</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/memory.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/memory.js"></script>
+    </head>
+    <body>
+        <header>
+                <h1 id="header">Memory Puzzle</h1>
+                <p id="result"></p>
+                <label for='pairs'>Number of pairs (2-15): </label>
+                <input type='number' id='pairs'>
+                <input type='button' value='Start' id='start_button'>
+                <input type='button' value='Help' id='show_help'>
+                <p id="alert"></p>
+                <div id="help_content">
+                    <h3>Memory Puzzle Instructions</h3>
+                    <ul>
+                        <li>Turn over two cards by clicking</li>
+                        <li>If the two cards match, you hit them, otherwise
+                            you miss the strike</li>
+                        <li>The uncover pair will be turned over when you 
+                            click to uncover the next pair</li>
+                        <li>Remember what was on each card and where it was</li>
+                        <li>You win, if you hit all pairs, but the number of misses must be less than the number
+                            of total pairs, otherwise, you lost the game</li>
+                    </ul>
+                    <input type='button' value='Close' id="close_help">
+                </div> <!-- end of #help_content -->
+        </header>
+        
+        <div id="table">
+            <div id="card1"></div>
+            <div id="card2"></div>
+            <div id="card3"></div>
+            <div id="card4"></div>
+            <div id="card5"></div>
+            <div id="card6"></div>
+            <div id="card7"></div>
+            <div id="card8"></div>
+            <div id="card9"></div>
+            <div id="card10"></div>
+            <div id="card11"></div>
+            <div id="card12"></div>
+            <div id="card13"></div>
+            <div id="card14"></div>
+            <div id="card15"></div>
+            <div id="card16"></div>
+            <div id="card17"></div>
+            <div id="card18"></div>
+            <div id="card19"></div>
+            <div id="card20"></div>
+            <div id="card21"></div>
+            <div id="card22"></div>
+            <div id="card23"></div>
+            <div id="card24"></div>
+            <div id="card25"></div>
+            <div id="card26"></div>
+            <div id="card27"></div>
+            <div id="card28"></div>
+            <div id="card29"></div>
+            <div id="card30"></div>
+        </div> <!-- end of #table -->
+        
+    </body>
+
+</html>
